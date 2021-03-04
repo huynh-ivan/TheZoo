@@ -1,0 +1,45 @@
+h1{
+  background: yellow;
+  color: purple;
+  text-align: left;
+}
+
+body{
+  background: #224320;
+}
+nav{
+  background: purple;
+}
+nav a{
+  color: white;
+}
+
+ol li {
+  color: pink;
+}
+
+.urgent{
+  font-size: 2em;
+  font-style: bold;
+  font-family: sans-serif;
+  color: red
+}
+
+.blue{
+  color: blue;
+}
+
+.responsive{
+  max-width: 100%;
+}
+
+.sidebyside img{
+  width: 49%;
+}
+
+
+@media only screen and (max-width: 750px) {
+  body {
+  background-color: teal;
+  }
+}
